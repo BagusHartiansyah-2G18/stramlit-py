@@ -15,7 +15,7 @@ itemTransaksi = pd.read_csv("./resultData/itemTransaksi.csv")
 customer = pd.read_csv("./resultData/customer.csv")
 
 colors = ["#F99090", "#FFDE4D", "#68FF74", "#4F86FF", "#DD55FF"]
-tahun = '2018'
+tahun = '2018' #tahun = '2018'
 
 with elements("newElement"):
     col1, col2 = st.columns(2)
